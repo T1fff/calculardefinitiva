@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="shortcut icon"
+      href="https://cdn-icons-png.flaticon.com/512/768/768818.png"
+      type="image/x-icon"
+    />
+    <title>Calcula tu nota | Algoritmia</title>
+  </head>
+  <body>
+    <nav></nav>
+    <main>
+        <div class="title-div">
+            <h1>Calcula tu nota</h1>
+            <p>Inserta tus notas en una escala de 0 a 5. Utiliza punto (.) para los decimales.</p>
+        </div>
+      
+      <div class="div-cortes">
+        <div class="corte corte1">
+          <div class="title">
+            <h3 class="corte-title">Corte 1</h3>
+          </div>
+
+          <div class="inputs">
+            <div class="input">
+              <label for="Name">Parcial:</label>
+              <input type="text" class="parcial1" name="Name" />
+            </div>
+            <div class="input">
+              <label for="Name">Quiz 1:</label>
+              <input type="text" class="quiz1_1" name="Name" />
+            </div>
+            <div class="input">
+              <label for="Name">Quiz 2:</label>
+              <input type="text" class="quiz1_2" name="Name" />
+            </div>
+            <div class="input">
+              <label for="Name">Tarea 1:</label>
+              <input type="text" class="tarea1_1" name="Name" />
+            </div>
+          </div>
+          <button class="calcular1-btn">Calcular corte</button>
+          <div class="nota">
+            <p class="nota-c1">.</p>
+          </div>
+        </div>
+        <div class="corte corte1Lab">
+          <div class="title">
+            <h3 class="corte-title">Corte 1</h3>
+            <h3>Laboratorio</h3>
+          </div>
+
+          <div class="inputs">
+            <div class="input">
+              <label for="Name">Lab 1:</label>
+              <input type="text" class="lab1_1" name="Name" />
+            </div>
+            <div class="input">
+              <label for="Name">Lab 2:</label>
+              <input type="text" class="lab1_2" name="Name" />
+            </div>
+            <div class="input">
+              <label for="Name">Lab 3:</label>
+              <input type="text" class="lab1_3" name="Name" />
+            </div>
+          </div>
+          <button class="calcularLab1-btn">Calcular corte</button>
+          <div class="nota">
+            <p class="nota-cLab">.</p>
+          </div>
+        </div>
+        <div class="corte corte2">
+          <div class="title">
+            <h3 class="corte-title">Corte 2</h3>
+          </div>
+
+          <div class="inputs">
+            <div class="input">
+              <label for="Name">Parcial:</label>
+              <input type="text" class="parcial2" name="Name" />
+            </div>
+            <div class="input">
+              <label for="Name">Quiz 1:</label>
+              <input type="text" class="quiz2_1" name="Name" />
+            </div>
+            <div class="input">
+              <label for="Name">Taller 1:</label>
+              <input type="text" class="taller2_1" name="Name" />
+            </div>
+          </div>
+          <button class="calcular2-btn">Calcular corte</button>
+          <div class="nota">
+            <p class="nota-c2">.</p>
+          </div>
+        </div>
+        <div class="corte corte2Lab">
+            <div class="title">
+              <h3 class="corte-title">Corte 2</h3>
+              <h3>Laboratorio</h3>
+            </div>
+  
+            <div class="inputs">
+              <div class="input">
+                <label for="Name">Lab 1:</label>
+                <input type="text" class="lab2_1" name="Name" />
+              </div>
+              <div class="input">
+                <label for="Name">Lab 2:</label>
+                <input type="text" class="lab2_2" name="Name" />
+              </div>
+            </div>
+            <button class="calcularLab2-btn">Calcular corte</button>
+            <div class="nota">
+              <p class="nota-cLab2">.</p>
+            </div>
+          </div>
+        <div class="corte corteF">
+            <div class="title">
+              <h3 class="corte-title">Corte Final</h3>
+            </div>
+  
+            <div class="inputs">
+              <div class="input">
+                <label for="Name">Parcial:</label>
+                <input type="text" class="parcialF" name="Name" />
+              </div>
+              <div class="input">
+                <label for="Name">Project:</label>
+                <input type="text" class="nProyectoF" name="Name" />
+              </div>
+            </div>
+            <button class="calcularcFinal-btn">Calcular corte</button>
+            <div class="nota">
+              <p class="nota-corteF">.</p>
+            </div>
+          </div>
+
+      </div>
+      
+      <div class="nota notaDefinitiva">
+        <button class="calcularDefinitiva">Calcular Definitiva</button>
+        <p class="nota-corteDefinitiva">.</p>
+      </div>
+    </main>
+    <footer></footer>
+    <script src="index.js"></script>
+  </body>
+</html>
